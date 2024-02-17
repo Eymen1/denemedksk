@@ -1,12 +1,12 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
+    "username": "EymanBeyAFK",
+    "password": "",
     "type": "microsoft"
   },
 
   "server": {
-    "ip": "localhost",
+    "ip": "play.melonya.net",
     "port": 25565,
     "version": "1.19.3"
   },
@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "fake3"
     },
 
     "anti-afk": {
@@ -37,21 +37,21 @@
       },
 
       "circle-walk": {
-        "enabled": false,
-        "radius": 2
+        "enabled": true,
+        "radius": 10
       }
     },
 
     "chat-messages": {
       "enabled": false,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 5,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "/towny",
+        "/t spawn",
+        "",
+        ""
       ]
     },
 
